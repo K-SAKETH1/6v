@@ -1,0 +1,268 @@
+/* selectors */
+ul li {
+    list-style: none;
+}
+ul li a{
+    color: #76BA99;
+    font-size: 1rem;
+    transition: all 2s ease-in;
+    transition-delay: 1s;
+
+}
+ul li a :hover{
+    color: #FF87B2;
+    font-size: 1.3rem;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+p{
+    text-align: center;
+}
+/* class */
+.name{
+    color:#76BA99;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.fullname{
+    margin-top: 0px;
+font-family: 'Montserrat Alternates', sans-serif;
+color: #00D7FF ;
+letter-spacing: 2px;
+}
+.qualification{
+    margin-top: 0;
+font-family: 'Montserrat Alternates', sans-serif;
+color: #00D7FF ;
+letter-spacing: 2px;
+}
+.boot{
+    font-size: 2rem;
+    color: blueviolet;
+}
+ .html{
+    font-size: 2rem;
+}
+.css{
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+.content{
+letter-spacing: 2px;
+color: #94B49F;
+}
+.button{
+    padding: 2%;
+}
+.talk{
+    width: 85px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00D7FF;
+    border: #00D7FF;
+    color: #ffff;
+     margin-right: 20px;
+}
+.talk:hover{
+    background-color: #76BA99;
+    border: #76BA99;
+}
+.whats{
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #76BA99;
+    border: #76BA99;
+    color: #ffff;
+    margin-right: 5px;
+}
+.whats:hover{
+    background-color: #00D7FF;
+    border: #00D7FF;
+}
+.mail{
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #76BA99;
+    border: #76BA99;
+    color: #ffff;
+    margin-right: 5px;
+}
+.mail:hover{
+    background-color: #00D7FF;
+    border: #00D7FF;
+}
+/* id's */
+#profile{
+    text-align: center;
+    padding: 5% 8%;
+}
+/* media screen */
+@media screen and (min-width:300px) and (max-width:950px) {
+    .content{
+        letter-spacing: 0;
+        line-height: 1;
+    }
+
+    image{
+        width: 50%;
+    }.person{
+        float: left;
+    }
+    .person{
+        width: 100%;
+    }
+.matter{
+    width: 100%;
+}
+    #aboutme{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home{
+        height: 20px;
+    }
+    #saketh{
+        padding-left: 5%;
+    }
+    #container{
+        padding-top: 8%;
+    }
+    
+}
+/* about me */
+/* clases */
+.image{
+    width: 50%;
+}.person{
+    float: left;
+}
+.info{
+    text-align: left;
+    color: #576F72;
+}
+.intro{
+font-family: 'Montserrat Alternates', sans-serif;
+color: #00D7FF;
+}
+.no{
+    color: #76BA99;
+}
+.hi{
+    color: #76BA99;
+}
+.back{
+    clear: left;
+    text-align: center;
+    padding: 2%;
+}
+.home{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF7396;
+    border: #FF7396;
+    color: #ffff;
+}
+.home:hover{
+    background-color: #9DD6DF;
+    color: #4C3A51;
+}
+.home{
+    transition: all 1s;
+}
+/* projects */
+.error{
+    padding: 5%;
+    text-align: center;
+}
+.done{
+    color: #B25068;
+}
+/* Contacts */
+.sak{
+    padding-left: 30%;
+}
+.contact{
+    padding: 5%;
+    background-color: #CDF0EA;
+    margin: 0;
+    width: 400px;
+    border-radius: 5px;
+    /* margin-left: 400px; */
+}
+.yours{
+margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+.message{
+margin-bottom: 10px;
+padding: 3%;
+margin-left: 35px;
+}
+.me{
+    margin-left: 123px;
+    background-color: #576F72;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    padding: 3%;
+    transition: all 1s;
+}
+.me:hover{
+   background-color: #FF87B2;
+}
+.link{
+   margin: 10px;
+   text-decoration: none;
+   color: #ffff;
+   transition: all 1s;
+}
+.come{
+    height: 33px;
+    border-radius: 5px;
+    background-color: #576F72;
+    border:#576F72;
+    color: #ffff;
+    transition: all 1s;
+}
+.come:hover{
+ background-color: #B25068;
+ color: #ffff;
+
+}
+.bottom{
+    text-align: center;
+    padding: 3%;
+}
+.logo{
+    font-size: 1.5rem;
+    margin: 10px;
+    color: #00D7FF;
+}
+.logo:hover{
+    color: #4C3A51;
+}
+/* selectors */
+label{
+    color: #A77979;
+}
+input{
+    border: none;
+    margin: 0;
+    border-radius: 3px;
+    height: 25px;
+}
+@media screen and (min-width:950px) and (max-width:4000px) {
+    .sak{
+        padding-left: 30%;
+    }
+}
