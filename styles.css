@@ -130,10 +130,26 @@ color: #94B49F;
         height: 20px;
     }
     #saketh{
-        padding-left: 5%;
+        padding-left: 2.5%;
     }
     #container{
-        padding-top: 8%;
+        padding-top: 16%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #profile{
+        padding-top: 15%;
+    }
+    #error{
+        padding-top: 16%;
+    }
+    #contact{
+        padding-top: 16%;
+    }
+    #back{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 16%;
     }
     
 }
@@ -247,9 +263,14 @@ margin-left: 35px;
     font-size: 1.5rem;
     margin: 10px;
     color: #00D7FF;
+    transition: all 0.5s;
 }
 .logo:hover{
-    color: #4C3A51;
+    color: #277BC0;
+    font-size: 2rem;
+}
+.copy{
+    color: #76BA99;
 }
 /* selectors */
 label{
@@ -260,6 +281,11 @@ input{
     margin: 0;
     border-radius: 3px;
     height: 25px;
+}
+/* ids */
+#container{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 @media screen and (min-width:950px) and (max-width:4000px) {
     .sak{
